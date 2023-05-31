@@ -4,18 +4,18 @@
   "author": "kimtaek",
   "colors": {
     "white-dark": "#dbe3ea",
-    "grey-light": "#3a4b58",
+    "grey-light": "#373944",
     "grey": "#292c36",
     "grey-dark": "#1b1e28",
     "blue-light": "#ebf5fc",
     "blue": "#70d3fa",
     "blue-dark": "#4bc8fa",
     "green-light": "#ebedf5",
-    "green": "#70e0c8",
-    "green-dark": "#52a190",
+    "green": "#4c5052",
+    "green-dark": "#4c5052",
     "purple-light": "#a9afd1",
-    "purple": "#FF79C5",
-    "purple-dark": "#c76196",
+    "purple": "#589df6",
+    "purple-dark": "#589df6",
     "warning": "#f48c06",
     "shadow": "undefined"
   },
@@ -113,26 +113,6 @@
     "Button": {
       "arc": 0,
       "background": "grey-dark",
-      "skol": {
-        "borderColor": "grey-light",
-        "defaultBorderColor": "grey-light",
-        "defaultEndColor": "grey-light",
-        "defaultFocusedBorderColor": "grey-light",
-        "defaultOutlineColor": "grey-light",
-        "defaultStartColor": "grey-light",
-        "disabledBorderColor": "grey-light",
-        "disabledOutlineColor": "grey-dark",
-        "disabledText.shadow": "grey-dark",
-        "endColor": "grey-light",
-        "focusedBorderColor": "grey-light",
-        "outlineColor": "grey-light",
-        "selectedButtonForeground": "white-dark",
-        "selection.color1": "grey-light",
-        "selection.color2": "grey-light",
-        "shadowColor": "shadow",
-        "smallComboButtonBackground": "grey-light",
-        "startColor": "grey-light"
-      },
       "default": {
         "borderColor": "grey-light",
         "endBackground": "grey-light",
@@ -179,13 +159,6 @@
       "checkSignColor.selected": "grey-dark",
       "checkSignColorDisabled": "grey-dark",
       "checkSignColorDisabled.selected": "grey-dark",
-      "skol": {
-        "borderColor1": "white-dark",
-        "checkSignColorDisabled": "white-dark",
-        "disabledBorderColor1": "white-dark",
-        "disabledBorderColor2": "white-dark",
-        "inactiveFillColor": "grey-light"
-      },
       "disabledBorderColor": "grey-dark",
       "disabledBorderColor.selected": "blue",
       "disabledText": "white-dark",
@@ -258,15 +231,6 @@
       "arrowFillColor": "grey-dark",
       "background": "grey-dark",
       "buttonBackground": "grey",
-      "skol": {
-        "arrowButtonBackground": "grey-dark",
-        "arrowButtonDisabledForeground": "white-dark",
-        "arrowButtonForeground": "white-dark",
-        "disabledArrowButtonBackground": "grey-light",
-        "editable.arrowButtonBackground": "grey-dark",
-        "hoveredArrowButtonForeground": "blue",
-        "nonEditableBackground": "grey-dark"
-      },
       "disabledBackground": "grey",
       "disabledForeground": "white-dark",
       "foreground": "white-dark",
@@ -321,11 +285,6 @@
       "background": "blue",
       "borderColor": "blue",
       "foreground": "white-dark"
-    },
-    "skol": {
-      "background": "grey-dark",
-      "foreground": "white-dark",
-      "primary": "grey-dark"
     },
     "desktop": "grey-dark",
     "Debugger": {
@@ -874,13 +833,6 @@
     },
     "RadioButton": {
       "background": "grey-dark",
-      "skol": {
-        "borderColor1": "white-dark",
-        "selectionDisabledColor": "grey-dark",
-        "selectionDisabledShadowColor": "blue",
-        "selectionEnabledColor": "blue",
-        "selectionEnabledShadowColor": "blue"
-      },
       "disabledText": "white-dark",
       "focusColor": "blue",
       "foreground": "white-dark",

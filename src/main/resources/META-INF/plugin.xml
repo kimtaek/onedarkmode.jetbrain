@@ -1,6 +1,12 @@
 <idea-plugin require-restart="true" allow-bundled-update="true">
   <id>com.kimtaek.OneDarkMode-theme</id>
-  <vendor email="kimtaek@skiff.com" url="https://github.com/kimtaek/onedarkmode.jetbrain">One Dark Mode</vendor>
+  <vendor email="kimtaek@skiff.com" url="https://github.com/kimtaek/onedarkmode.jetbrain">kimtaek</vendor>
+  <description><![CDATA[
+    High quality dark theme.
+    <ul>
+        <li>Works with classic and new JetBrains UI</li>
+    </ul>
+    ]]></description>
   <name>One Dark Mode Theme</name>
   <version>latest</version>
   <depends>com.intellij.modules.platform</depends>
