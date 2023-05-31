@@ -1,0 +1,52 @@
+plugins {
+  id("idea")
+  id("java")
+  id("org.jetbrains.kotlin.jvm") version "1.8.10"
+  id("com.github.ben-manes.versions") version "0.45.0"
+  id("org.jetbrains.intellij") version "1.13.3"
+}
+
+group = "com.kimtaek"
+version = System.getenv("APP_VERSION")
+
+repositories {
+  mavenCentral()
+}
+
+java {
+  sourceCompatibility JavaVersion.VERSION_17
+  targetCompatibility JavaVersion.VERSION_17
+}
+
+kotlin {
+  compileKotlin {
+    kotlinOptions.jvmTarget = JavaVersion.VERSION_17
+  }
+}
+
+intellij {
+  pluginName = "OneDarkMode Theme"
+  type = "IC"
+  version = "LATEST-EAP-SNAPSHOT"
+  configureDefaultDependencies = true
+  updateSinceUntilBuild = false
+  downloadSources = true
+}
+
+runIde {
+  jvmArgs = List.of("-Xms512m", "-Xmx2048m")
+}
+
+buildSearchableOptions {
+  enabled = false
+}
+
+publishPlugin {
+  setToken(System.getenv("JETBRAINS_TOKEN"))
+}
+
+patchPluginXml {
+  changeNotes = """Compatibility fixes related to new UI changes in 2023.1."""
+  version = System.getenv("APP_VERSION") ? System.getenv("APP_VERSION") : new Date().format("yyyy.M.d.HHmm")
+  sinceBuild = "231"
+}

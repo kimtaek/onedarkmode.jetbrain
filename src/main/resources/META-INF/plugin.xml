@@ -1,0 +1,12 @@
+<idea-plugin require-restart="true" allow-bundled-update="true">
+  <id>com.kimtaek.OneDarkMode-theme</id>
+  <vendor email="kimtaek@skiff.com" url="https://github.com/kimtaek/onedarkmode.jetbrain">One Dark Mode</vendor>
+  <name>One Dark Mode Theme</name>
+  <version>latest</version>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="One Dark Mode" path="/themes/OneDarkMode.theme.json"/>
+    <registryKey key="ide.experimental.ui.tree.selection" defaultValue="false" restartRequired="false"
+                 description="New UI for selected tree nodes (OneDarkMode theme modified, IDE default: true)"/>
+  </extensions>
+</idea-plugin>
