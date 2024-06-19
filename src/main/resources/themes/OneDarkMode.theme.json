@@ -19,7 +19,7 @@
     "warning": "#f48c06",
     "shadow": "undefined"
   },
-  "editorScheme": "/colors/OneDarkMode.icls",
+  "editorScheme": "editor/dark.editor.xml",
   "ui": {
     "*": {
       "acceleratorForeground": "white-dark",
