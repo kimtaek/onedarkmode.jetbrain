@@ -32,19 +32,4 @@ import com.kimtaek.notifications.ThemeNotification
 import java.util.*
 
 object ThemeManager {
-
-  fun registerStartup(project: Project) {
-    attemptToDisplayUpdates(project)
-  }
-
-  private fun attemptToDisplayUpdates(project: Project) {
-    getVersion().ifPresent { currentVersion ->
-      if (ThemeSettings.instance.version != currentVersion) {
-        ThemeSettings.instance.version = currentVersion
-        StartupManager.getInstance(project).runAfterOpened { ThemeNotification.notifyReleaseNote(project) }
-      }
-    }
-  }
-
-  private fun getVersion() = Optional.of(ThemeMeta.currentVersion)
 }
